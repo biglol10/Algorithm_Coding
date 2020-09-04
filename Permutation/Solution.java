@@ -6,6 +6,7 @@ public class Solution {
         String[] words_list = words.split("");
 
         doPermutation(words_list, 0, 3);
+        System.out.println(words_list);
     }
 
     public static void doPermutation(String[] arr, int depth, int r) { // n 은 총 길이, r는 몇개를 뽑을건지

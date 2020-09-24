@@ -25,6 +25,14 @@ public class Solution {
 		 * String[][] tickets = {{"ICN", "A"}, {"ICN", "B"}, {"B", "ICN"}};
 		 */
 
+         /*
+		 * String[][] tickets = {{"ICN", "A"}, {"ICN", "A"}, {"A", "ICN"}};
+		 * 
+		 * String[][] tickets = {{"ICN","BOO"}, {"ICN", "COO"}, { "COO", "DOO" },
+		 * {"DOO", "COO"}, { "BOO", "DOO"} ,{"DOO", "BOO"}, {"BOO", "ICN" }, {"COO",
+		 * "BOO"}};
+		 */
+
 		String[] answer = solution(tickets);
 
 		for (int i = 0; i < answer.length; i++) {
